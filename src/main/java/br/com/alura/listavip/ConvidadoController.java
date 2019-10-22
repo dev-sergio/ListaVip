@@ -7,9 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import br.com.alura.enviarEmail.enviarEmail.EmailService;
+import br.com.alura.enviarEmail.EmailService;
 import br.com.alura.listavip.model.Convidado;
-import br.com.alura.listavip.repository.ConvidadoRepository;
 import br.com.alura.listavip.service.ConvidadoService;
 
 @Controller
