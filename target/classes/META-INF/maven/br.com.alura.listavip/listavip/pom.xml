@@ -16,6 +16,20 @@
 					<release>12</release>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>1.4.2.RELEASE</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	</build>
 
@@ -63,9 +77,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>br.com.alura.enviarEmail</groupId>
+			<groupId>br.com.sergio.enviarEmail</groupId>
 			<artifactId>enviarEmail</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1</version>
 		</dependency>
 
 	</dependencies>
