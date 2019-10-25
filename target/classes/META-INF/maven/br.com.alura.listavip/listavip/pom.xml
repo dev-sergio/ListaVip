@@ -20,7 +20,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>1.4.2.RELEASE</version>
+				<version>2.2.0.RELEASE</version>
 				<executions>
 					<execution>
 						<goals>
@@ -80,7 +80,9 @@
 			<groupId>br.com.sergio.enviarEmail</groupId>
 			<artifactId>enviarEmail</artifactId>
 			<version>1</version>
+
 		</dependency>
+
 
 	</dependencies>
 

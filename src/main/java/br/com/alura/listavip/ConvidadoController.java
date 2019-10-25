@@ -11,6 +11,7 @@ import br.com.alura.listavip.model.Convidado;
 import br.com.alura.listavip.service.ConvidadoService;
 import br.com.sergio.enviarEmail.EmailService;
 
+
 @Controller
 public class ConvidadoController {
 
